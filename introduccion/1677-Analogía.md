@@ -1,3 +1,5 @@
+# Analogía
+
 ![image.png](https://dphi-live.s3.amazonaws.com/media_uploads/image_24615aaa697c4c9b9569f5ba6da40014.png)
 
 * Imagina que tú y tus amigos están planeando un viaje a la playa. Todos sabemos lo difícil que es decidir la mejor playa. Siendo el más entusiasta de todos, empezarás con la investigación. 
