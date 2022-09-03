@@ -1,0 +1,31 @@
+# Análisis Exploratorio de Datos - Qué y Por qué
+
+## ¿Qué es el AED?
+
+El análisis exploratorio de datos (AED), como su nombre indica, es un enfoque de análisis/exploración de conjuntos de datos para resumir las características de un conjunto de datos y los hallazgos interesantes. A menudo, estas características se resumen visualmente.
+
+En un contexto técnico de ciencia de datos, se refiere al proceso crítico de realizar investigaciones iniciales sobre los datos para
+* Descubrir patrones
+* Detectar anomalías
+* Comprobar la hipótesis
+* Comprobar las hipótesis (si las hay) con la ayuda de estadísticas resumidas y representaciones gráficas.
+
+## ¿Por qué EDA?
+
+Un EDA es un examen exhaustivo destinado a descubrir la estructura subyacente de un conjunto de datos. Es esencial para una empresa porque expone las tendencias, los patrones y las relaciones que no son fácilmente evidentes.
+
+A la gente no se le da bien mirar una columna de números o una hoja de cálculo entera y luego determinar las características importantes de los datos. Consideran que mirar los números es tedioso, aburrido y/o abrumador. Las técnicas de análisis exploratorio de datos se han ideado como ayuda en esta situación. La mayoría de estas técnicas funcionan, en parte, ocultando ciertos aspectos de los datos y haciendo más claros otros.
+
+No se pueden sacar conclusiones fiables de una cantidad masiva de datos simplemente revisando, sino que hay que mirarlos cuidadosa y metódicamente a través de una mirada analítica.
+Tener un "tacto" con esta información crítica puede ayudarle a detectar errores, refutar suposiciones y comprender las relaciones entre las diferentes variables clave. Estas ideas pueden conducir eventualmente a la selección de un modelo predictivo apropiado.
+
+## Principales razones por las que utilizamos EDA
+
+* Para obtener una primera visión de los datos.
+* Para visualizar los datos de manera que las características más interesantes se hagan evidentes. A continuación, podemos utilizar estas características para un objetivo de Machine Learning.
+* Para la detección de errores
+* Para comprobar los supuestos
+* Para una selección preliminar de los modelos adecuados
+* Para determinar las relaciones entre las variables de entrada, y
+* Para evaluar la dirección y el tamaño aproximado de las relaciones
+entre las variables de entrada y las variables objetivo.
