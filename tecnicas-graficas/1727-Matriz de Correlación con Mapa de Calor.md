@@ -1,29 +1,29 @@
-<h2><span style="color:#000000">Correlation:</span></h2>
+<h2><span style="color:#000000">Correlación:</span></h2>
 
-<p><span style="color:#000000">Correlation is a statistical measure. </span><span style="color:#212121">Data correlation is a way to understand the relationship between multiple values or features in your dataset.</span></p>
+<p><span style="color:#000000">Es una correlación es una medida estadística. </span><span style="color:#212121">La correlación de datos es una forma de entender la relación entre múltiples valores o características en su conjunto de datos.</span></p>
 
-<p><span style="color:#212121">Every single successful data science project revolves around finding accurate correlations between the input and target variables. However more than often, we oversee how crucial correlation analysis is.&nbsp;</span></p>
+<p><span style="color:#212121">Todos los proyectos de ciencia de datos que tienen éxito giran en torno a la búsqueda de correlaciones precisas entre las variables de entrada y las de destino. Sin embargo, a menudo nos olvidamos de la importancia del análisis de correlación.&nbsp;</span></p>
 
-<p><span style="color:#212121">It is recommended to perform correlation analysis before and after data gathering and transformation phases of a data science project.</span></p>
+<p><span style="color:#212121">Se recomienda realizar un análisis de correlación antes y después de las fases de recopilación y transformación de datos de un proyecto de ciencia de datos.</span></p>
 
-<p><span style="color:#212121">&nbsp;There are three different types of correlations:</span></p>
+<p><span style="color:#212121">&nbsp;Hay tres tipos diferentes de correlaciones:</span></p>
 
 <ol>
-	<li style="list-style-type:decimal"><span style="color:#212121"><strong>Positive Correlation:</strong> Two features (variables) can be positively correlated with each other. It means that when the value of one variable increases then the value of the other variable(s) also increases (also decreases when the other decreases).<br />
-	Eg. The more time you spend running on a treadmill, the more calories you will burn.</span></li>
-	<li style="list-style-type:decimal"><span style="color:#212121"><strong>Negative Correlation:</strong> Two features (variables) can be negatively correlated with each other. This occurs when the value of one variable increases and the value of another variable(s) decreases (inversely proportional).<br />
-	Eg. As the weather gets colder, air conditioning costs decrease.</span></li>
-	<li style="list-style-type:decimal"><span style="color:#212121"><strong>No Correlation:</strong> Two features might not have any relationship with each other. This happens when the value of a variable is changed then the value of the other variable is not impacted.<br />
-	Eg. There is no relationship between the amount of tea drunk and level of intelligence.</span></li>
+	<li style="list-style-type:decimal"><span style="color:#212121"><strong>Correlación Positiva:</strong> Dos variables pueden estar positivamente correlacionadas entre sí. Significa que cuando el valor de una variable aumenta, el valor de la(s) otra(s) variable(s) también aumenta (también disminuye cuando la otra disminuye).<br />
+	Por ejemplo, cuanto más tiempo pases corriendo en una cinta, más calorías quemarás.</span></li>
+	<li style="list-style-type:decimal"><span style="color:#212121"><strong>Correlación Negativa:</strong> Dos variables pueden estar negativamente correlacionadas entre sí. Esto ocurre cuando el valor de una variable aumenta y el valor de otra(s) variable(s) disminuye (inversamente proporcional).<br />
+	Por ejemplo, a medida que el tiempo se vuelve más frío, los costes del aire acondicionado disminuyen.</span></li>
+	<li style="list-style-type:decimal"><span style="color:#212121"><strong>Sin Correlación:</strong> Dos variables pueden no tener ninguna relación entre sí. Esto ocurre cuando se cambia el valor de una variable y el valor de la otra no se ve afectado.<br />
+	Por ejemplo, no hay relación entre la cantidad de té que se bebe y el nivel de inteligencia.</span></li>
 </ol>
 
 <ul>
-	<li><span style="color:#212121">Each of these correlation types exists in a spectrum represented by values from -1 to +1 where slight or high positive correlation features can be like 0.5 or 0.7.</span></li>
-	<li><span style="color:#212121">A very strong and perfect positive correlation is represented by a correlation score of 0.9 or 1.</span></li>
-	<li><span style="color:#212121">If there is a strong negative correlation, it will be represented by a value of -0.9 or -1. Values close to zero indicates no correlation.</span></li>
+	<li><span style="color:#212121">Cada uno de estos tipos de correlación existe en un espectro representado por valores de -1 a +1 donde las características de correlación positiva leve o alta pueden ser como 0,5 o 0,7.</span></li>
+	<li><span style="color:#212121">Una correlación positiva muy fuerte y perfecta está representada por una puntuación de correlación de 0,9 o 1.</span></li>
+	<li><span style="color:#212121">Si hay una fuerte correlación negativa, se representará con un valor de -0,9 o -1. Los valores cercanos a cero indican que no hay correlación.</span></li>
 </ul>
 
-<p><span style="color:#212121">We can check how each feature is related to others using </span><span style="color:#212121">corr()</span><span style="color:#212121"> function.</span></p>
+<p><span style="color:#212121">Podemos comprobar cómo se relaciona cada característica con las demás utilizando la función </span><span style="color:#212121">corr()</span><span style="color:#212121">.</span></p>
 
 <p>&nbsp;</p>
 
@@ -31,17 +31,17 @@
 
 <p>&nbsp;</p>
 
-<p><span style="color:#212121"><span style="background-color:#ffffff">Creating a pictorial visualisation of the above correlation matrix using a heatmap helps in better understanding. We can do that using Seaborn&#39;s Heatmap function.</span></span></p>
+<p><span style="color:#212121"><span style="background-color:#ffffff">La creación de una visualización de la matriz de correlación anterior mediante un mapa de calor ayuda a una mejor comprensión. Podemos hacerlo utilizando la función Heatmap de Seaborn.</span></span></p>
 
 <p style="text-align:center"><img alt="" height="966" src="https://dphi-courses.s3.ap-south-1.amazonaws.com/introduction-to-eda/Module3/eda3m5.png" width="1247" /></p>
 
-<h2><span style="color:#212121"><span style="background-color:#ffffff"><strong>Observations:</strong></span></span></h2>
+<h2><span style="color:#212121"><span style="background-color:#ffffff"><strong>Observaciones:</strong></span></span></h2>
 
 <ul>
-	<li style="list-style-type:disc"><span style="color:#212121"><span style="background-color:#ffffff"><strong>Alcohol</strong> has the highest positive correlation with wine quality, followed by the various other variables such as acidity, sulphates, density &amp; chlorides.</span></span></li>
-	<li style="list-style-type:disc"><span style="color:#212121"><span style="background-color:#ffffff">There is a relatively high positive correlation between fixed_acidity and citric_acid, fixed_acidity and density.</span></span></li>
-	<li style="list-style-type:disc"><span style="color:#212121"><span style="background-color:#ffffff">There is a relatively high negative correlation between fixed_acidity and pH.</span></span></li>
-	<li style="list-style-type:disc"><span style="color:#212121"><span style="background-color:#ffffff">Density has a strong positive correlation with fixed_acidity, whereas it has a strong negative correlation with alcohol.</span></span></li>
-	<li style="list-style-type:disc"><span style="color:#212121"><span style="background-color:#ffffff">citric acid &amp; volatile acidity have negative correlation.</span></span></li>
-	<li style="list-style-type:disc"><span style="color:#212121"><span style="background-color:#ffffff">free sulphur dioxide &amp; total sulphur dioxide have positive correlation.</span></span></li>
+	<li style="list-style-type:disc"><span style="color:#212121"><span style="background-color:#ffffff"><strong>Alcohol</strong> es la variable que presenta la mayor correlación positiva con la calidad del vino, seguida de otras variables como la acidez, los sulfatos, la densidad y los cloruros.</span></span></li>
+	<li style="list-style-type:disc"><span style="color:#212121"><span style="background-color:#ffffff">Existe una correlación positiva relativamente alta entre la acidez fija y el ácido cítrico, la acidez fija y la densidad.</span></span></li>
+	<li style="list-style-type:disc"><span style="color:#212121"><span style="background-color:#ffffff">Existe una correlación negativa relativamente alta entre fixed_acidity y pH.</span></span></li>
+	<li style="list-style-type:disc"><span style="color:#212121"><span style="background-color:#ffffff">La densidad tiene una fuerte correlación positiva con fixed_acidity, mientras que tiene una fuerte correlación negativa con el alcohol.</span></span></li>
+	<li style="list-style-type:disc"><span style="color:#212121"><span style="background-color:#ffffff">ácido cítrico & la acidez volátil tienen una correlación negativa.</span></span></li>
+	<li style="list-style-type:disc"><span style="color:#212121"><span style="background-color:#ffffff">Dióxido de azufre libre &amp; dióxido de azufre total tienen una correlación positiva.</span></span></li>
 </ul>
